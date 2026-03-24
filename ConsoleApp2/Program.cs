@@ -38,11 +38,11 @@ namespace ConsoleApp2
             int lives = 9;
             Console.WriteLine("Введите сколько раз умер кошак");
             int liv = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"У котака осталось {lives - liv} жизней");
+            Console.WriteLine($"У кошки осталось {lives - liv} жизней");
         }
         public void korm()
         {
-            Console.WriteLine("Введите вес кашки");
+            Console.WriteLine("Введите вес кошки");
             int ves = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите пол кошкая м/ж");
             string pol = Console.ReadLine();
